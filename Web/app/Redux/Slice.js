@@ -22,7 +22,7 @@ export const login = createAsyncThunk("user/loginuser", async (userData) => {
     console.log("sourav ", response); 
     console.log("sourav2",response.data)
     if(response !== ""){
-      localStorage.setItem("userData.", JSON.stringify(response.data.user));
+      localStorage.setItem("userData.", JSON.stringify(response.data));
       return response.data;
     
     }
