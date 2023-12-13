@@ -1,0 +1,20 @@
+AppBar{
+    background-color: #BF40BF	;
+}
+
+.MuiToolbar-root{
+background:#BF40BF;
+}
+.css-rbklcn-MuiResponsiveChart-container{
+    width: 21%
+}
+.Chart{
+    margin-top: 2%;
+ 
+}
+.collection{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+  }
